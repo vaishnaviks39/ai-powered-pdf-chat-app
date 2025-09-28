@@ -42,12 +42,13 @@ Google Cloud Run (for deployment)
 2. **Create and activate a virtual environment (optional):**
 
 ***For Mac***
+```bash
 python3 -m venv venv
 
 source venv/bin/activate
 
 3. **Install dependencies:**
-
+```bash
 pip install -r requirements.txt
 
 4. **Set up environment variables by creating a .env file in the project root:**
@@ -55,7 +56,7 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your_openai_api_key_here
 
 5. **Run the app:**
-
+```bash
 streamlit run chat_app.py
 
 **Access the app at: http://localhost:8501**
