@@ -1,0 +1,56 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# ---- Virtual Environments ----
+venv/
+langchainenv/
+ENV/
+env/
+.venv/
+*.env
+
+# ---- Jupyter / Streamlit ----
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# ---- Logs / Cache ----
+*.log
+*.sqlite3
+*.db
+*.DS_Store
+*.bak
+*.swp
+*.swo
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Deployment / Build ----
+dist/
+build/
+*.egg
+*.manifest
+*.spec
+
+# ---- Docker ----
+*.pid
+*.tar
+*.sock
+*.pid.lock
+
+# ---- Google Cloud / AWS ----
+*.json
+*.yaml
+*.yml
+*.pem
