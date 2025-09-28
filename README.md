@@ -41,7 +41,7 @@ Google Cloud Run (for deployment)
 
 2. **Create and activate a virtual environment (optional):**
 
-# Mac/Linux
+***For Mac***
 python3 -m venv venv
 source venv/bin/activate
 
